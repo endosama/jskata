@@ -1,0 +1,26 @@
+{
+  "name": "js-katas",
+  "version": "1.0.0",
+  "description": "Some js katas",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "test:map": "jest ./src/map/map.test.ts",
+    "test:reduce": "jest ./src/map/map.test.ts"
+  },
+  "keywords": [
+    "js",
+    "kata"
+  ],
+  "author": "Andrea Piras",
+  "license": "ISC",
+  "dependencies": {
+    "@types/jest": "^25.2.1",
+    "babel-jest": "^25.3.0",
+    "eslint": "^6.8.0",
+    "jest": "^25.3.0",
+    "ts-jest": "^25.4.0",
+    "ttypescript": "^1.5.10",
+    "typescript": "^3.8.3"
+  }
+}
