@@ -55,7 +55,6 @@ describe("Test: Reduce", () => {
             const logic = (arr: any[] /* the array of values */): { newValue: number }[] => {
                 /* implements logic */
                 /* return the expected value */
-                return []
             }
             const expected = [
                 { newValue: 1 },
@@ -85,7 +84,7 @@ describe("Test: Reduce", () => {
                 "2": 4,
                 "3": 9
             };
-            expect(multiply(params)).toEqual(expected);
+            expect(multiply(params)).toMatchObject(expected);
         });
 
         it("6: should return the sum of the values inside the array", () => {

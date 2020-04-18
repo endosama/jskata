@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "test:map": "jest ./src/map/map.test.ts",
-    "test:reduce": "jest ./src/map/map.test.ts"
+    "test:reduce": "jest ./src/reduce/reduce.test.ts",
+    "test:spread": "jest ./src/spread/spread.test.ts"
   },
   "keywords": [
     "js",
