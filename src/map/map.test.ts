@@ -44,7 +44,7 @@ describe("Test: Map", () => {
 
     it("3: should return an array of months (String)", () => {
         const params = [0, 1, 5, 3, 11];
-        const numberToMonth = (monthNumber: number): string => (new Date(2009, monthNumber, 1)).toLocaleString('default', { month: 'long' })
+        const numberToMonth = (monthNumber: number): string => (new Date(2009, monthNumber, 1)).toLocaleString("default", { month: "long" })
         const logic = (arr: number[] /* the array of values */): string[] => {
             /* implements logic */
             /* return the expected value */
